@@ -1,0 +1,1 @@
+SELECT item_id FROM products WHERE currently = (SELECT MAX(currently) FROM products);

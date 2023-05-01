@@ -1,0 +1,14 @@
+.separator | 
+.import UserFinal8.dat User
+update User set country = null where country = 'NULL';
+update User set location = null where location = 'NULL';
+.import CategoriesFinal8.dat Categories
+update Categories set category = null where category = 'NULL';
+.import BidFinal8.dat Bid
+.import ProductsFinal9.dat Products
+update Products set buy_price = null where buy_price = 'NULL';
+update Products set description = null where description = 'NULL';
+
+
+
+

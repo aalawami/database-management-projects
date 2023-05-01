@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM(SELECT COUNT(*) as N FROM Categories GROUP BY Categories.item_id) WHERE N = 4;
